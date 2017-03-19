@@ -2,6 +2,11 @@
   "name": "generator-skin",
   "version": "0.1.0",
   "description": "A skin generator for manage all assets of an application in a skin folder",
+  "author": {
+    "name": "Matthieu Poletti",
+    "email": "matthieu.poletti@gmail.com",
+    "url": "matthieu.ovh"
+  },
   "files": [
     "generators"
   ],
@@ -12,6 +17,10 @@
     "front-end",
     "gulp"
   ],
+  "repository": {
+    "type" : "git"
+  , "url" : "https://github.com/matpo/generator-skin"
+  },
   "dependencies": {
     "chalk": "^1.0.0",
     "generator-jasmine": "^0.2.1",
