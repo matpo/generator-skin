@@ -1,0 +1,26 @@
+{
+  "name": "generator-skin",
+  "version": "0.1.0",
+  "description": "A skin generator for manage all assets of an application in a skin folder",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "skin",
+    "assets",
+    "front-end",
+    "gulp"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "generator-jasmine": "^0.2.1",
+    "generator-mocha": "^0.3.1",
+    "mkdirp": "^0.5.1",
+    "underscore.string": "^3.1.1",
+    "wiredep": "^4.0.0",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.0"
+  }
+}
