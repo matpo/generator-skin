@@ -1,6 +1,6 @@
 {
   "name": "generator-skin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A skin generator for manage all assets of an application in a skin folder",
   "author": {
     "name": "Matthieu Poletti",
