@@ -225,6 +225,6 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
 gulp.task('default', () => {
     return new Promise(resolve => {
         dev = false;
-        runSequence(['clean', 'wiredep'], 'build', ['styles:dist'<% if (includeBabel) { -%>, 'scripts:dist'<% } %>], copy, resolve);
+        runSequence(['clean', 'wiredep'], 'build', ['styles:dist'<% if (includeBabel) { -%>, 'scripts:dist'<% } %>], 'copy', resolve);
     });
 });
