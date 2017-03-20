@@ -321,7 +321,8 @@ module.exports = generators.Base.extend({
                     includeModernizr: this.includeModernizr,
                     includeJQuery: this.includeJQuery,
                     bsPath: bsPath,
-                    bsPlugins: bsPlugins
+                    bsPlugins: bsPlugins,
+                    noTwig: this.noTwig
                 }
             );
         },
