@@ -1,6 +1,6 @@
 {
   "name": "generator-skin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A skin generator for manage all assets of an application in a skin folder",
   "author": {
     "name": "Matthieu Poletti",
@@ -18,8 +18,8 @@
     "gulp"
   ],
   "repository": {
-    "type" : "git"
-  , "url" : "https://github.com/matpo/generator-skin"
+    "type": "git",
+    "url": "https://github.com/matpo/generator-skin"
   },
   "dependencies": {
     "chalk": "^1.0.0",
